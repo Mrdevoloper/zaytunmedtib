@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "rootDir": "./",
+        "outDir": "./dist",
+        "allowSyntheticDefaultImports": false
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./server.ts",
+        "./package.json"
+    ]
+}
